@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	  <base href="/">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyArLszxE_HT7m6fbE7qsubOShG42QxoM3Q"></script>
+
+
+    <!-- Switch Fonts -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="scripts/js/jquery/jquery-2.2.4.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    
+
+<script>
+
+</script>
+
+	<title><%= title %></title>
+	<base href="/">
+</head>
+<body>
+	
+  
+  
+  
+  
+  <mean-app>
+		<h1>Loading...</h1>
+	</mean-app>
+	
+	<script type="text/javascript">
+		window.user = <%- user || 'null' %>;
+	</script>
+
+	 <!-- REVOLUTION JS FILES -->
+    <script  src="scripts/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="scripts/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <!-- Plugins js -->
+    <script  src="scripts/js/plugins.js"></script>
+    <!-- Active js -->
+    <script  src="scripts/js/active.js"></script>
+    <!-- Active js -->
+    <script   src="scripts/js/agency-slider-active.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <!-- Bootstrap js -->
+
+
+
+ 
+	
+	<script src="build/polyfills.js"></script>
+	<script src="build/vendor.js"></script>
+	<script src="build/bootstrap.js"></script>
+
+
+</body>
+</html>

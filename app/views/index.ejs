@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <base href="/">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyArLszxE_HT7m6fbE7qsubOShG42QxoM3Q"></script>
+
+
+    <!-- Switch Fonts -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+    
+    <script src="scripts/js/jquery/jquery-2.2.4.min.js"></script>
+
+<link rel="stylesheet" href="app/style/css/core-style.css"  type="text/css">
+<link rel="stylesheet" href="app/style/style.css"  type="text/css">
+
+<link rel="stylesheet" href="app/style/css/fonts/opensans.css"  type="text/css">
+<link rel="stylesheet" href="app/style/css/responsive.css"  type="text/css">
+<link rel="stylesheet" href="app/style/revolution/css/settings-source.css"  type="text/css">
+
+<link rel="stylesheet" href="app/style/revolution/css/settings.css"  type="text/css">
+<link rel="stylesheet" href="app/style/revolution/css/layers.css"  type="text/css">
+<link rel="stylesheet" href="app/style/revolution/css/navigation.css"  type="text/css">
+ <link href="app/style/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+
+<!--load aws lib-->
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.100.0.min.js"></script>
+
+  <link href="assets/slick-1.6.0/slick.css" rel="stylesheet" type="text/css">
+
+
+
+    <script>
+    </script>
+
+    <title>
+        <%= title %>
+    </title>
+    <base href="/">
+</head>
+
+<body>
+
+
+    <!--<div style="position: fixed; z-index: 9999; width: 100%; height: 50px; background-color: #ffffff; box-shadow: 0 0 10px 0 rgba(136, 136, 136, 0.3);">
+        <a href="#" style=" font-size: 30px; margin: 0 10px; position: absolute; width: 100px; color: #6c6c6c">
+            PopApp
+        </a>
+        <div [routerLink]="['/articles']" style="float: right; height: 40px; margin: 5px;">
+            <a style="float: right;">מציאת נכס</a>
+        </div>
+    </div>-->
+
+
+    <mean-app style="position: absolute;  width: 100%;">
+      
+        <h1>Loading...</h1>
+    </mean-app>
+
+    <script type="text/javascript">
+        window.user = <%- user || 'null' %>;
+    </script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script src="scripts/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="scripts/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="scripts/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+
+
+
+
+<script  type="text/javascript" src="assets/slick-1.6.0/slick.min.js"></script> <!-- slick slider -->
+    <!-- Plugins js -->
+    <script src="scripts/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="scripts/js/active.js"></script>
+    <!-- Active js -->
+    <script src="scripts/js/agency-slider-active.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <!-- Bootstrap js -->
+
+
+
+
+
+    <script src="build/polyfills.js"></script>
+    <script src="build/vendor.js"></script>
+    <script src="build/bootstrap.js"></script>
+
+
+</body>
+
+</html>
